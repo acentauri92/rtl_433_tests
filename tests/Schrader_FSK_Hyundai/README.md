@@ -5,7 +5,7 @@ Vendor: Schrader Electronics (Sensata). One decoder covers two factory part numb
 
 RF: FSK, Manchester coded (52.18 us half-bit), polarity inverse of IEEE 802.3.
 9-byte frame, additive checksum sum(b0..b7) & 0xFF == b8.
-Fields: 32-bit id, pressure (kPa, 0.25 PSI per count, no offset), temperature (C),
+Fields: 32-bit id, pressure (PSI, 0.25 per count, no offset), temperature (C),
 byte7 transmit-mode/status (partial enumeration: 0x1c rolling, 0x01 pressure-change
 alert on rapid fall or rise), burst counter, sequence.
 
